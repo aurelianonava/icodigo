@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <h3>Augustus Hawkins</h3>
+
+        </section>
+
+        <section>
+
+            <section>
+
+                <h3>What is most challenging at present for us?</h3>
+                <p class="fragment">Collaboration</p>
+                <p class="fragment">...yes, it's hard, done well.</p>
+                <p class="fragment">Really? So, what's new Mr. Nava?</p>
+            </section>
+
+            <section>
+
+                We know collaboration is important, Mr. Nava. Tell us something new...
+                <p class="fragment">So, what is new about how teachers and students should/ought/will collaborate?</p>
+
+                <p class="fragment">The Internet.</p>
+                <p class="fragment">Wow, really Mr. Nava? Are you serious?</p>
+
+
+
+            </section>
+
+            <section>
+                Well, yes, I'm serious, but how is this being done at the highest, and
+                most organized level is the question?
+            </section>
+
+            <section>
+                <h1>?</h1>
+                <p class="fragment">It's being done in cloud assembly line
+                kind of system called....</p>
+                <p class="fragment">Distributive Version Control</p>
+                <p class="fragment">And Git is the best and most popular in the world</p>
+                <p class="fragment">It's king among developers</p>
+            </section>
+            
+            <section>
+                Who uses Git?
+                <img class="fragment" src="img/who-uses-git.png" alt="">
+                
+            </section>
+
+            <section>
+                So, Mr. Nava, really? What does this have to do with us, as techers
+                and students in a public school?
+                <p class="fragment">It's how we are all going to collaborate and work
+                with one another...</p>
+                <p class="fragment">If we are going to collaborate in the process of
+                    creating, building, or solving a problem...</p>
+                <p class="fragment">This is how it will be done...</p>
+            </section>
+
+            <section>
+                So Why don't we know about it? Or, if you do, why isn't it being
+                used?
+                <p class="fragment">Because it's challenging to use well.</p>
+                <p class="fragment">There is a learing curve that comes with
+                using DVC.
+                </p>
+                <p class="fragment">It will still take years for DVC to be adopted and
+                used in K12</p>
+
+            </section>
+
+            <section>Question: If it's so complex, how do you expect teachers
+                and students to adopt it?
+                <p class="fragment">When people learn complex but effetive systems,
+                they figure out simple and practical ways to use them and share them
+                with others.</p>
+                <p class="fragment">And that's where I'm at with DVC as a teacher.</p>
+
+            </section>
+
+            <section>
+                I'm just hoping that it communicates something
+                about me to you, and that it is decisive in you selecting me
+                to teach here at Augustus.
+                <p class="fragment">So, can I show you biefly how I'd use DVC?</p>
+            </section>
+
+            <section>
+                Pretend for a moment that this is your contribution  to some project you're working with others:
+
+                <p class="fragment"><img src="img/lego-piece.png" alt=""></p>
+            </section>
+
+            <section>
+                And that this is the goal of the project:
+                <img class="fragment" src="img/lego-space-battleship.png" alt="">
+                <p class="fragment">How is something this complex get built,
+                together with others, over the Internet?</p>
+                <p class="fragment">How do you contribute your small piece?
+                    <img src="img/lego-piece.png" alt="">
+                </p>
+            </section>
+
+            <section>
+                Let me show you....
+                    <p class="fragment">My lego piece: <br> <img src="img/lego-piece.png" width="100" height="100" alt=""></p>
+                    <p class="fragment">My lego piece online toolbox: <br>
+                        <a href="http://p5js.org/reference/#/p5/fill">p5js fill() function</a></p>
+
+<pre>
+<p class="fragment">Where it will fit:</p>
+<code class="hljs fragment">
+    function setup() {
+        createCanvas(400, 300);
+        background(200);
+        ellipse(100, 100, 100, 100);
+    }
+
+    function draw() {
+
+    }
+</code>
+</pre>
+
+                <p class="fragment"><a href="https://github.com/aurelianonava/myp5js">My p5js Repository</a> <br>
+                    <a href="https://classroom.google.com/u/0/c/MTMyNjE4MTY1MFpa">My p5js Google Classroom</a>
+                </p>
+
+            </section>
+
+        </section>
+
+
+
+
+
+        <section>
+
+            <section>
+                <h2>Angular:</h2>
+                <h3>Component Tree Model</h3>
+                <img class="fragment" src="img/component-tree.png" alt="">
+                <p class="fragment">The initial parent component is bootstrapped and due to this tree sturture model
+                components interact with each other.</p>
+            </section>
+
+            <section>
+                <img src="img/HTML-DOM-Tree.png"></img>
+
+            </section>
+
+            <section>
+
+                <p>
+                    A component in Angular is used to render a portion of html
+                    and provide functionality to that portion.
+                </p>
+                
+                <p class="fragment">And this is done through a Component's class</p>
+
+                <p class="fragment">...a TypeScript Class</p>
+                <p class="fragment">And here is where application logic
+                is defined for our components.</p>
+                
+                <code class="hljs fragment">class AppComponent {
+                }
+                </code>
+            </section>
+
+            <section>
+                So, a component's TypeScript class, can have its properties and methods referenced
+                from the component's template.
+<pre><code class="hljs fragment" >
+    @Component({
+        selector: 'media-item',
+        template: '{{ mediaItem.name }}'
+})
+    class AppComponent {
+        mediaItem = {
+            name: "Plato"
+        }
+    }
+                </code></pre>
+            </section>
+
+            <section>
+                With each component you can specify an html template, the markup that
+                will get rendered, and from here reference properties and methods in the
+                compponent's class.
+            </section>
+
+            <section>
+                <h2>Dependency Injection</h2>
+					<pre><code class="hljs" data-trim contenteditable>
+function Person() {
+  this.name = "Plato";    // instance variable
+}
+
+function sayHelloPerson() {
+    var person = new Person();
+    console.log("Hello " + person.name);
+}
+</code></pre>
+                
+            </section>
+
+            <section>
+                sayHello(); <br>
+                Hello Plato
+            </section>
+
+            <section>
+                In this example we have the function creating an object instance:
+<pre>
+<code class="hljs fragment">
+function sayHelloPerson() {
+    var person = new Person();
+    console.log("Hello " + person.name);
+}
+</code>
+</pre>
+
+<p class="fragment">
+    But, what we really want to do is have the Person object instance created by a parameter passed to a constructor function:
+</p>
+
+            </section>
+
+            <section>
+<pre>
+<code class="hljs">
+    function sayHelloPerson(person) {
+        console.log("Hello " + person.name);
+}
+
+var person = new Person();
+sayHelloPerson(person);
+Hello Plato
+</code>
+</pre>
+            </section>
+
+            
+            <section>
+                <p>Our Immediate Goal:</p>
+                <p class="fragment">
+                    As I see it, but some of you might see it in another way, should be to know how to do this with TypeScript and pass on data in created in its classes to angular components and sub-components.
+                </p>
+                 
+            </section> 
+
+            <section>
+                How do we do this as a learning, networking, and support web technolgy group?
+            </section>
+
+
+        </section>
+
+
+
+        <!-- Example of nested vertical slides -->
+        <section>
+            <section>
+                <h2>Vertical Slides</h2>
+                <p>Slides can be nested inside of each other.</p>
+                <p>Use the <em>Space</em> key to navigate through all slides.</p>
+                <br>
+                <a href="#" class="navigate-down">
+                    <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+                </a>
+            </section>
+            <section>
+                <h2>Basement Level 1</h2>
+                <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+            </section>
+            <section>
+                <h2>Basement Level 2</h2>
+                <p>That's it, time to go back up.</p>
+                <br>
+                <a href="#/2">
+                    <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+                </a>
+            </section>
+        </section>
+
+        <section>
+            New section.....
+        </section>
+			
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
